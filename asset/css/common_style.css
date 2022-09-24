@@ -1,0 +1,66 @@
+/* ---------------------------
+        Common Class
+---------------------------- */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.no-drop-cursor{
+    cursor: no-drop;
+}
+.button-1{
+    color: #ffffff;
+    background: #ff3e78;
+    padding: 10px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.button-1:hover{
+    color: #ff2e6d;
+    background: transparent;
+    outline: 2px solid #ff2e6d;
+}
+.transparent-button{
+    display: inline-block;
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+    padding: 1% var(--Size10);
+    color: #1a1a1a;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.transparent-button:hover{
+    border: 2px solid;
+    border-image: linear-gradient(to top left,#ff0000,#0000ff);
+    border-image-slice: 1;
+    background: linear-gradient(to right bottom,rgb(215, 231, 215),#0000ff60);
+    color: var(--black01);
+}
+#active-button{
+    color: #ffffff;
+    background: #1B9CFC;
+    transition: .3s ease-in-out;
+}
+#active-button:hover{
+    background: #0785e6;
+}
+.fontWeight-semibold{
+    font-weight: 600;
+}
+.fontWeight-medium{
+    font-weight: 500;
+}
+.fontWeight-bold{
+    font-weight: 700;
+}
+.border-r-5{
+    border-radius: 5px;
+}
+.border-r-10{
+    border-radius: 10px;
+}
+.border-r-30{
+    border-radius: 30px;
+}
